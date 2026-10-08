@@ -1,2 +1,1 @@
-# cpp-practice
-Repositorio para prepararme para trabajar con C++
+C++ practice repository documenting my progress through language fundamentals, STL, OOP, memory management and debugging. Exercises are developed as part of my preparation for software engineering internships.
