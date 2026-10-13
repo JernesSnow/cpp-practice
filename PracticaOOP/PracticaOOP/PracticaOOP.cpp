@@ -11,9 +11,12 @@ Clase Barco : public Vehiculo
 - muestra "El barco navega"*/
 class Vehiculo {
 public:
-	virtual void mover() = 0; //al convertir el virtual puro se transforma a una clase abstracta
-	virtual void Accelerar() = 0;
-};
+	virtual void mover() = 0; 
+	// Un metodo virtual puro hace que Vehiculo sea una clase abstracta.
+
+// virtual void acelerar() = 0;
+// Si una clase hija no implementa todos los metodos virtuales puros,
+// esa clase hija tambien permanece abstracta.
 void iniciarMovimiento(Vehiculo& vehiculo) {
 	vehiculo.mover();
 }
